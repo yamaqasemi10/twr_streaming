@@ -253,7 +253,6 @@ int main(int argc, char **argv){
     assert(nrng);
 
     dpl_event_init(&nrng_complete_event, nrng_complete_cb, nrng);
-tdma
     struct uwb_mac_interface cbs = (struct uwb_mac_interface){
         .id = UWBEXT_APP0,
         .inst_ptr = nrng,
